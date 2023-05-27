@@ -1,0 +1,4 @@
+﻿Confidence Score is more then 90% for Bill_1684348090629_1_.pdf. So, we have processed this document successfully.
+Confidence Score is more then 90% for Legal_1684348090630_1_.pdf. So, we have processed this document successfully.
+Confidence Score is more then 90% for Medical Billing(for review)_1684348090631_1_.pdf. So, we have processed this document successfully.
+Confidence Score is more then 90% for Medical report_1684348090631_1_.pdf. So, we have processed this document successfully.
