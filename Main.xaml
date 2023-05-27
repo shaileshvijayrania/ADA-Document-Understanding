@@ -248,7 +248,7 @@
             <av:PointCollection x:Key="ConnectorLocation">300,208.5 300,238.50000000000003 309.64166666666665,238.50000000000003 309.64166666666665,258.5</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Sequence DisplayName="Login to Clear AI System" sap:VirtualizedContainerService.HintSize="200,81" sap2010:WorkflowViewState.IdRef="Sequence_68">
+        <Sequence DisplayName="Login to Clear AI System" sap:VirtualizedContainerService.HintSize="548,2655" sap2010:WorkflowViewState.IdRef="Sequence_68">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -297,13 +297,13 @@
               </Catch>
             </TryCatch.Catches>
           </TryCatch>
-          <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Edge" DisplayName="Klear AI Login" sap:VirtualizedContainerService.HintSize="486,1646" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Url="[url]">
+          <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Edge" DisplayName="Klear AI Login" sap:VirtualizedContainerService.HintSize="486,1776" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Url="[url]">
             <ui:OpenBrowser.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="452,1544" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="452,1674" sap2010:WorkflowViewState.IdRef="Sequence_11">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -409,15 +409,16 @@
                       </ui:Target>
                     </ui:UiElementExists.Target>
                   </ui:UiElementExists>
-                  <If Condition="[Bot_Login=true]" sap:VirtualizedContainerService.HintSize="410,360" sap2010:WorkflowViewState.IdRef="If_1">
+                  <If Condition="[Bot_Login=true]" sap:VirtualizedContainerService.HintSize="410,490" sap2010:WorkflowViewState.IdRef="If_1">
                     <If.Then>
-                      <Sequence sap:VirtualizedContainerService.HintSize="376,178" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                      <Sequence sap:VirtualizedContainerService.HintSize="376,308" sap2010:WorkflowViewState.IdRef="Sequence_9">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
                         <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,90" sap2010:WorkflowViewState.IdRef="WriteLine_7" Text="Login succesfully" />
+                        <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,90" sap2010:WorkflowViewState.IdRef="WriteLine_59" Text="User Login successfully" />
                       </Sequence>
                     </If.Then>
                     <If.Else>
@@ -635,7 +636,7 @@
                                 <av:PointCollection x:Key="ConnectorLocation">100,740.5 100,799.5</av:PointCollection>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <Sequence DisplayName="DCN Number and Download" sap:VirtualizedContainerService.HintSize="956,7122" sap2010:WorkflowViewState.IdRef="Sequence_71">
+                            <Sequence DisplayName="DCN Number and Download" sap:VirtualizedContainerService.HintSize="200,81" sap2010:WorkflowViewState.IdRef="Sequence_71">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
